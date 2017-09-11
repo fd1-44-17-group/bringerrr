@@ -1,0 +1,15 @@
+.oneright{
+    text-align:right;
+    margin-right:-12px;
+}
+.tworight{
+    text-align:right;
+    margin-right:-23px;
+}
+
+.oneleft{
+    margin-left:-12px
+}
+.twoleft{
+    margin-left:-23px
+}
