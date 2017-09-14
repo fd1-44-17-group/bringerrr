@@ -1,4 +1,4 @@
-body{
+body {
     background-image: url(water.jpeg);
     background-size: 100%;
     width: 500px;
@@ -27,7 +27,7 @@ h2 {
     width: 286px;
     color: #ECE63D;
     background: #12597A;
-    border:4px inset #7BC2E3;
+    border: 4px inset #7BC2E3;
     text-align: center;
     float: right;
     font-family: 'Pattaya', sans-serif;
@@ -37,7 +37,7 @@ h2 {
 
 h3 {
     background-color: #0D4C69;
-    border:3px inset #7BC2E3;
+    border: 3px inset #7BC2E3;
     color: #DAD431;
     padding: 5px;
     font-size: 120%;
@@ -56,7 +56,7 @@ h3 {
     color: #DAD42B;
     font-weight: normal;
     margin: 0;
-    font-style:italic;
+    font-style: italic;
 }
 
 div.info {
@@ -97,13 +97,6 @@ div.info {
     border: 1px solid #34495E;
     float: left;
     padding: 5px;
-    width: 400px 
+    width: 400px
 }
 
-
-}
-
-
-/*.list {*/
-/*    color:pink;*/
-/*} - как засунуть списочные точки внутрь формы? */

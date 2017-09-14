@@ -10,7 +10,7 @@ table {
 }
 
 .pishka{
-    background-image:url("../img/chess.png") ;
+    background-image:url("chess.png") ;
     background-position: -266px 0px;
     background-repeat:no-repeat;}
 
@@ -20,10 +20,10 @@ table {
     background-repeat:no-repeat;
 }    
 
-.slon{
+.slonl{
     background-image:url("../img/chess.png") ;
     background-position: -107px -53px;
-    background-repeat:no-repeat;
+    background-repeat:no-repeat;}
 
 .ferz{
     background-image:url("../img/chess.png") ;
@@ -35,7 +35,7 @@ table {
     background-position: -160px -53px;
     background-repeat:no-repeat;}
     
-.loshad{
+.roach{
     background-image:url("../img/chess.png") ;
     background-position: -213px 0px;
     background-repeat:no-repeat;}
@@ -64,11 +64,10 @@ table {
     background-image:url("../img/chess.png") ;
     background-position: -213px -53px;
     background-repeat:no-repeat;}
-}
     
 .pishkal{
     background-image:url("../img/chess.png");
-    background-position: -266px 0px;
+    background-position: -266px -53px;
     background-repeat:no-repeat;
      }
 
@@ -76,5 +75,7 @@ tr td{
     border: 1px solid;
     width:40px;
     height:40px;
+    text-align:center;
 }
+
 
