@@ -1,0 +1,16 @@
+ .cell{
+ 	border: .5px solid black hide;
+	float:left;
+ 	text-align:center;
+ 	font-size:200%;
+ 	min-height: 37px;
+ 	min-width:9%;
+}
+
+.clear{
+	clear:both;
+}
+
+.black{
+	background-color:grey;
+}
