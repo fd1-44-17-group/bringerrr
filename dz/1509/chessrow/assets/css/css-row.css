@@ -1,0 +1,22 @@
+.main{	
+	width: 75%;
+	margin: 0 auto;
+}
+
+.row{	
+	clear:both;
+	width: 100%;
+}
+
+ .cell{
+	float:left;
+ 	text-align:center;
+ 	font-size:200%;
+	border:.5px solid black hide;
+	width: 10%;
+	min-height: 40px;
+	min-width: 40px;
+}
+.black{
+	background: grey;
+}

@@ -1,0 +1,28 @@
+html{
+	font-size: 100%
+}
+
+.main{	
+	margin: 0 auto;
+	width: 70%;
+}
+
+.col
+{
+	float:left;
+	width: 10%;
+
+
+}
+
+ .cell{
+	border: .5px solid black block;
+ 	text-align:center;
+ 	font-size:2em;
+ 	width:100%;
+ 	min-height: 40px
+ }
+
+.black{
+	background-color:grey;
+}
