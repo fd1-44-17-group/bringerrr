@@ -1,3 +1,7 @@
+@media screen and (min-width: 400px) {
+ .chess-table div:hover {background-color:green}}
+
+
 .chess-table {
 	width: 100vmin;
     height: 100vmin;

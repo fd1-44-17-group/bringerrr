@@ -148,7 +148,7 @@ div:nth-child(19):after{
 
 div:nth-child(22):after{
  content: " ";  
-    position: relative;  
+    position: absolute;  
     top: 0;  
     background: url("chess.png") -266px 0px no-repeat;  
     display: block;  
@@ -363,4 +363,13 @@ div:nth-child(89):after{
     display: block;  
     height: 50px;  
     width: 50px;
+}
+
+
+.chess-table>div:first-child {
+ background-color:red;
+}
+
+.chess-table>div:last-child {
+ background-color:red;
 }
