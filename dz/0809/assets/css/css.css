@@ -1,0 +1,109 @@
+body{
+    background-image: url(water.jpeg);
+    background-size: 100%;
+    width: 500px;
+    height: 700px;
+    font-size: 15px;
+}
+
+img {
+    border: 5px inset #7BC2E3;
+    width: 180px;
+    height: 190px;
+    border-radius: 20px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+ul {
+    margin: 5;
+    margin-left: 15px;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 25px;
+    padding: 5px;
+    width: 286px;
+    color: #ECE63D;
+    background: #12597A;
+    border:4px inset #7BC2E3;
+    text-align: center;
+    float: right;
+    font-family: 'Pattaya', sans-serif;
+    font-weight: normal;
+}
+
+
+h3 {
+    background-color: #0D4C69;
+    border:3px inset #7BC2E3;
+    color: #DAD431;
+    padding: 5px;
+    font-size: 120%;
+    width: auto;
+    width: 200px;
+    margin: 0;
+}
+
+.info h3 {
+    border: 2px solid #DAD42B;
+    padding: 5px;
+    width: auto;
+    font-size: 150%;
+    text-align: center;
+    background-color: #2A56AF;
+    color: #DAD42B;
+    font-weight: normal;
+    margin: 0;
+    font-style:italic;
+}
+
+div.info {
+    float: right;
+}
+
+.name {
+    padding: 3px;
+    background-color: #34495E;
+    width: 125px;
+    float: left;
+    text-align: right;
+    color: white;
+    padding-right: 10px;
+}
+
+.value {
+    padding: 3px;
+    background-color: #E5E5F3;
+    width: 160px;
+    float: left;
+}
+
+
+.educ,
+.job,
+.skills,
+.hobby {
+    clear: both;
+    float: left;
+    text-decoration: underline;
+    text-decoration-color: #DAD431;
+}
+
+.text {
+    color: black;
+    background-color: #E5E5F3;
+    border: 1px solid #34495E;
+    float: left;
+    padding: 5px;
+    width: 400px 
+}
+
+
+}
+
+
+/*.list {*/
+/*    color:pink;*/
+/*} - как засунуть списочные точки внутрь формы? */
