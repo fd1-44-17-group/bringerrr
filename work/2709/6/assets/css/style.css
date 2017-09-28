@@ -1,0 +1,34 @@
+body{
+    padding:10px;
+}
+
+div{
+width:450px;
+margin:0 0 22px 0;
+padding:6px;
+border-radius:5px;
+background:#E4E2E6;
+font-family:Courier;
+font-size:0.8em;
+}
+
+p:nth-of-type(5):after{
+    content:"-p";
+    display:block;
+background:#E4E2E6;
+font-family:Courier;
+font-size:0.8em;
+}
+
+
+.blue{
+    color:blue;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.courier{
+    font-family:Courier;
+}

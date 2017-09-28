@@ -1,0 +1,41 @@
+div {
+    width: auto;
+    height: 16px
+}
+    
+.row {
+   width: 50px
+}
+   
+
+.left {
+    float:left;
+}
+
+.right{
+   float:right; 
+}
+    
+
+.row{
+    clear:both;
+}
+
+.clear{
+    clear:both;
+}
+
+.marginleft {
+    margin-left: 20px;
+}
+
+.marginright{
+      margin-right: 20px;
+}
+
+.bot{
+    margin-bottom:-20px;
+}
+    
+
+    
