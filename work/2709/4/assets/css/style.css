@@ -1,0 +1,33 @@
+div{
+    border-right:10px solid grey;
+    border-left:10px solid grey;
+     max-width: 280px;
+     height: 500px
+}
+
+ul{
+    padding-top:25px;
+}
+
+li {text-transform: capitalize;
+    border-bottom:3px solid grey;
+    line-height: 300%; 
+    color:rgb(0,100,250);
+    vertical-align: center;
+    text-align:center; 
+    margin:0 0 0 -17%;
+    width:115%;
+    padding:2px;
+    height: 50px;
+    list-style-type:none;
+    font-weight:bold ;
+}
+
+li:first-child{
+    border-top:3px solid grey;
+}
+
+li:hover{
+    background:rgb(0,150,200);
+    color:white;
+}
