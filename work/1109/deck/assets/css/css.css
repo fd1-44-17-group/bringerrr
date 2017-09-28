@@ -1,0 +1,64 @@
+
+div{
+    background-image:url(../img/cards2.png);
+    width:140px;
+    height:200px;
+    }
+div.threespade{
+    background-repeat:no-repeat;
+    background-position:-0px -190px;
+ }
+ 
+div.threeclub{
+    background-repeat:no-repeat;
+    background-position:-145px -190px;
+ }
+ 
+ div.threediamond{
+    background-repeat:no-repeat;
+    background-position:-290px -190px;
+ }
+ 
+ div.threeheart{
+    background-repeat:no-repeat;
+    background-position:-435px -190px;
+ }
+ 
+ div.sevenspade{
+     background-repeat:no-repeat;
+    background-position:-0px -965px;
+ }
+ div.sevenclub{
+    background-repeat:no-repeat;
+    background-position:-145px -965px;
+ }
+ 
+ div.sevendiamond{
+    background-repeat:no-repeat;
+    background-position:-290px -965px;
+ }
+ 
+ div.sevenheart{
+    background-repeat:no-repeat;
+    background-position:-435px -965px;
+ }
+ 
+ div.acespade{
+    background-repeat:no-repeat;
+    background-position:-0px -2325px;
+ }
+ 
+  div.aceclub{
+    background-repeat:no-repeat;
+    background-position:-145px -2325px;
+ }
+ 
+ div.acediamond{
+    background-repeat:no-repeat;
+    background-position:-290px -2325px;
+ }
+ 
+ div.aceheart{
+    background-repeat:no-repeat;
+    background-position:-435px -2325px;
+ }

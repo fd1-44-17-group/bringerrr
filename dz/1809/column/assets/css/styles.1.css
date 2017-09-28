@@ -1,0 +1,366 @@
+div{
+
+    width:10%;
+    height: 10%;
+}
+
+.chess-table {
+    width: 100vmin;
+    height: 100vmin;
+}
+
+
+div:nth-last-child(n){
+       float:left;
+}
+
+/*content:begining*/
+
+div:nth-last-child(10n){
+    clear:both;}
+    
+div:nth-child(11n+9) {
+    background-color: grey;
+}
+
+div:nth-child(11n+11) {
+    background-color: grey;
+}
+
+div:nth-child(11n+13) {
+    background-color: grey;
+}
+
+div:nth-child(11n+15) {
+    background-color: grey;
+}
+
+div:nth-child(-11n+61) {
+    background-color: grey;
+}
+
+div:nth-last-child(-11n+61) {
+    background-color: grey;
+}
+
+ div:nth-last-child(19){
+    background-color: grey;
+ }
+
+div:nth-child(19){
+    background-color: grey;}
+    
+    /*content:end*/
+    
+    /*frame:begining*/
+
+div:nth-child(10n+1) {
+    background-color: white;
+    }
+div:nth-child(10n) {
+    background-color: white;
+    }
+div:nth-child(n+91) {
+    background-color: white;
+    }
+div:nth-last-child(n+91) {
+    background-color: white;
+    }
+
+/*frame:end*/
+
+/*figure:begining*/
+
+div:nth-child(12):after{
+ content: " ";  
+    position: relative;  
+    top: 0;  
+    background: url("chess.png") -107px 0px no-repeat;  
+    display: block;  
+    height: 50px;  
+    width: 50px;
+}
+div:nth-child(13):after{
+ content: " ";  
+    position: relative;  
+    top: 0;  
+    background: url("chess.png") -213px 0px no-repeat;  
+    display: block;  
+    height: 50px;  
+    width: 50px;
+}
+div:nth-child(14):after{
+ content: " ";  
+    position: relative;  
+    top: 0;  
+    background: url("chess.png") -160px 0px no-repeat;  
+    display: block;  
+    height: 50px;  
+    width: 50px;
+}
+div:nth-child(15):after{
+ content: " ";  
+    position: relative;  
+    top: 0;  
+    background: url("chess.png") -54px 0px no-repeat;  
+    display: block;  
+    height: 50px;  
+    width: 50px;
+}
+div:nth-child(16):after{
+ content: " ";  
+    position: relative;  
+    top: 0;  
+    background: url("chess.png") -0px 0px no-repeat;  
+    display: block;  
+    height: 50px;  
+    width: 50px;
+}
+div:nth-child(17):after{
+ content: " ";  
+    position: relative;  
+    top: 0;  
+    background: url("chess.png") -160px 0px no-repeat;  
+    display: block;  
+    height: 50px;  
+    width: 50px;
+}
+div:nth-child(18):after{
+ content: " ";  
+    position: relative;  
+    top: 0;  
+    background: url("chess.png") -213px 0px no-repeat;  
+    display: block;  
+    height: 50px;  
+    width: 50px;
+}
+div:nth-child(19):after{
+ content: " ";  
+    position: relative;  
+    top: 0;  
+    background: url("chess.png") -107px 0px no-repeat;  
+    display: block;  
+    height: 50px;  
+    width: 50px;
+}
+
+
+
+div:nth-child(22):after{
+ content: " ";  
+    position: relative;  
+    top: 0;  
+    background: url("chess.png") -266px 0px no-repeat;  
+    display: block;  
+    height: 50px;  
+    width: 50px;
+}
+div:nth-child(23):after{
+ content: " ";  
+    position: relative;  
+    top: 0;  
+    background: url("chess.png") -266px 0px no-repeat;  
+    display: block;  
+    height: 50px;  
+    width: 50px;
+}
+div:nth-child(24):after{
+ content: " ";  
+    position: relative;  
+    top: 0;  
+    background: url("chess.png") -266px 0px no-repeat;  
+    display: block;  
+    height: 50px;  
+    width: 50px;
+}
+div:nth-child(25):after{
+ content: " ";  
+    position: relative;  
+    top: 0;  
+    background: url("chess.png") -266px 0px no-repeat;  
+    display: block;  
+    height: 50px;  
+    width: 50px;
+}
+div:nth-child(26):after{
+ content: " ";  
+    position: relative;  
+    top: 0;  
+    background: url("chess.png") -266px 0px no-repeat;  
+    display: block;  
+    height: 50px;  
+    width: 50px;
+}
+div:nth-child(27):after{
+ content: " ";  
+    position: relative;  
+    top: 0;  
+    background: url("chess.png") -266px 0px no-repeat;  
+    display: block;  
+    height: 50px;  
+    width: 50px;
+}
+div:nth-child(28):after{
+ content: " ";  
+    position: relative;  
+    top: 0;  
+    background: url("chess.png") -266px 0px no-repeat;  
+    display: block;  
+    height: 50px;  
+    width: 50px;
+}
+div:nth-child(29):after{
+ content: " ";  
+    position: relative;  
+    top: 0;  
+    background: url("chess.png") -266px 0px no-repeat;  
+    display: block;  
+    height: 50px;  
+    width: 50px;
+}
+
+div:nth-child(72):after{
+ content: " ";  
+    position: relative;  
+    top: 0;  
+    background: url("chess.png") -266px -53px no-repeat;  
+    display: block;  
+    height: 50px;  
+    width: 50px;
+}
+div:nth-child(73):after{
+ content: " ";  
+    position: relative;  
+    top: 0;  
+    background: url("chess.png") -266px -53px no-repeat;  
+    display: block;  
+    height: 50px;  
+    width: 50px;
+}
+div:nth-child(74):after{
+ content: " ";  
+    position: relative;  
+    top: 0;  
+    background: url("chess.png") -266px -53px no-repeat;  
+    display: block;  
+    height: 50px;  
+    width: 50px;
+}
+div:nth-child(75):after{
+ content: " ";  
+    position: relative;  
+    top: 0;  
+    background: url("chess.png") -266px -53px no-repeat;  
+    display: block;  
+    height: 50px;  
+    width: 50px;
+}
+div:nth-child(76):after{
+ content: " ";  
+    position: relative;  
+    top: 0;  
+    background: url("chess.png") -266px -53px no-repeat;  
+    display: block;  
+    height: 50px;  
+    width: 50px;
+}
+div:nth-child(77):after{
+ content: " ";  
+    position: relative;  
+    top: 0;  
+    background: url("chess.png") -266px -53px no-repeat;  
+    display: block;  
+    height: 50px;  
+    width: 50px;
+}
+div:nth-child(78):after{
+ content: " ";  
+    position: relative;  
+    top: 0;  
+    background: url("chess.png") -266px -53px no-repeat;  
+    display: block;  
+    height: 50px;  
+    width: 50px;
+}
+div:nth-child(79):after{
+ content: " ";  
+    position: relative;  
+    top: 0;  
+    background: url("chess.png") -266px -53px no-repeat;  
+    display: block;  
+    height: 50px;  
+    width: 50px;
+}
+
+div:nth-child(82):after{
+ content: " ";  
+    position: relative;  
+    top: 0;  
+    background: url("chess.png") -107px -53px no-repeat;  
+    display: block;  
+    height: 50px;  
+    width: 50px;
+}
+div:nth-child(83):after{
+ content: " ";  
+    position: relative;  
+    top: 0;  
+    background: url("chess.png") -213px -53px no-repeat;  
+    display: block;  
+    height: 50px;  
+    width: 50px;
+}
+div:nth-child(84):after{
+ content: " ";  
+    position: relative;  
+    top: 0;  
+    background: url("chess.png") -160px -53px no-repeat;  
+    display: block;  
+    height: 50px;  
+    width: 50px;
+}
+div:nth-child(85):after{
+ content: " ";  
+    position: relative;  
+    top: 0;  
+    background: url("chess.png") -54px -53px no-repeat;  
+    display: block;  
+    height: 50px;  
+    width: 50px;
+}
+div:nth-child(86):after{
+ content: " ";  
+    position: relative;  
+    top: 0;  
+    background: url("chess.png") -0px -53px no-repeat;  
+    display: block;  
+    height: 50px;  
+    width: 50px;
+}
+div:nth-child(87):after{
+ content: " ";  
+    position: relative;  
+    top: 0;  
+    background: url("chess.png") -160px -53px no-repeat;  
+    display: block;  
+    height: 50px;  
+    width: 50px;
+}
+div:nth-child(88):after{
+ content: " ";  
+    position: relative;  
+    top: 0;  
+    background: url("chess.png") -213px -53px no-repeat;  
+    display: block;  
+    height: 50px;  
+    width: 50px;
+}
+div:nth-child(89):after{
+ content: " ";  
+    position: relative;  
+    top: 0;  
+    background: url("chess.png") -107px -53px no-repeat;  
+    display: block;  
+    height: 50px;  
+    width: 50px;
+}
