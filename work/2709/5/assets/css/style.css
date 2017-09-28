@@ -1,0 +1,41 @@
+body
+{
+    font-family:arial, sans-serif;
+    font-size:12px;
+}
+
+
+.main{width:430px;
+   overflow:scroll;
+   padding:10px;
+}
+
+.grey{
+width:450px;
+margin:0 0 22px 0;
+padding:6px;
+border-radius:5px;
+background:#E4E2E6;
+}
+
+.red{
+    color:red;
+}
+.green{
+    color:green;
+}
+.blue{
+    color:blue;
+}
+.italic{
+    font-style: italic;
+    color:brown;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.courier{
+    font-family:Courier;
+}
