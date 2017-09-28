@@ -1,0 +1,15 @@
+body{
+    font-family: arial;
+}
+
+div{
+    text-align:right;
+}
+
+h3 {
+    font-size:1.1em;
+    text-transform:uppercase;
+   font-weight: normal;
+    color:red;
+}
+

@@ -1,0 +1,17 @@
+div{
+    border:1px solid grey;
+    max-width: 280px
+}
+
+
+li {
+    text-transform: uppercase;
+    width:70%;
+    padding:2px;
+    margin:0 0 10px 2px;
+    list-style-type:none;
+}
+
+li:hover{
+    background:crimson;
+}
