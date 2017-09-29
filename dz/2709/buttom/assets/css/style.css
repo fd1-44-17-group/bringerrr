@@ -8,7 +8,6 @@
 	height: 100px;
 }
 
-
 .out:after{
 	content:"";
 	display: block;
@@ -19,33 +18,33 @@
 	width: 70px;
 	height: 70px;
 	left:365px;
-	bottom: 30px;
+	bottom: 51px;
 	transform: rotate(45deg);
+
 }
 
-.in{
+.out:before{
+	content: "Отправить";
+	display:block;
 	position: relative;
-	top:25%;
-	height: 45px;
+	top:0%;
+	height: 40px;
 	border:4px solid black;
 	border-style:none none none dotted;
 	padding:0px 0 0px 40px;
-	margin:0 0 0 40px;
-	font-size:45px;
-}
+	margin:25px 0 0 40px;
+	font-size:42px;
 
+}
 
 .out:hover{
 background:#5A5A5A;
 }
 
-
 .out:hover:after{
 background:#5A5A5A;
 }
 
-
-.in:hover{
+.out:before:hover{
 border-color:white;
-
 }
