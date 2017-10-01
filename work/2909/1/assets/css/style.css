@@ -1,0 +1,23 @@
+.main{
+    width: 90vw;
+    height: 90vh;
+}
+
+.butt{
+    position: relative;
+    top:20vh;
+    width: 30%;
+    height:15%;
+    float:left;
+    border:1px solid black; 
+    line-height: 150%;
+    text-align: center;
+    overflow:hidden
+}
+
+div.text{
+    float:right;
+    width: 68%;
+    height: 100%;
+    overflow:hidden;
+}
