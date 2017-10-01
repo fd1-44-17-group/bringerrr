@@ -1,0 +1,96 @@
+.border{
+	border-radius:20px 20px 0 0;
+	width: 80vw;
+	height: 91vh;
+	background:#E6E6E6;
+}
+
+
+.title{
+	background: #007854;
+	color:white;
+	border:1px solid black;
+	border-radius:20px 20px 0 0;
+	width:100%;
+	height: 13%;
+	font-size: 8vmin;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 200%;
+	letter-spacing: 6px;
+	z-index: 10;
+}
+
+
+.december{
+	font-family: arial;
+	background: black;
+	color:white;
+	border:1px solid black;
+	width:100%;
+	height: 13%;
+	font-size: 7vmin;
+	text-align: center;
+	line-height: 200%;
+}
+
+.december:after{
+	content:"";
+	position: absolute;
+	display: block;
+	border-width:5vh 5vw 5vh 5vw ;
+	border-style:solid;
+	border-color: black black black #007854;
+	left:69.5vw;
+	top:14.7vh;
+	width:0%;
+}
+
+.december:before{
+	content:"";
+	position: absolute;
+	display: block;
+	border-width:5vh 5vw 5vh 5vw ;
+	border-style:solid;
+	border-color: black #007854 black black;
+	background: #007854;
+	top:14%;;
+	left:3%;
+	width: 0%;
+}
+
+
+.culcs{
+	margin:7vh 0 0 0;
+	width: 100%;
+	height: 70%;
+
+}
+
+
+.culcs>div:nth-child(n){
+	float:left;
+	width:11%;
+	height: 16%;
+	counter-increment:my;
+	font-size:9vmin;
+	color:black;
+	text-align: right;
+	line-height: 150%;
+	padding: 0 3% 0 0%;
+}
+
+.culcs>div:nth-of-type(n):after{
+	content: counter(my);
+	display: block;
+
+}
+
+.culcs>div:nth-child(4){
+background: #007854;
+color:white;
+}
+
+.culcs>div:nth-child(n+5){
+color:grey;
+}

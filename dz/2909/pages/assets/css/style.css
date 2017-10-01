@@ -1,0 +1,38 @@
+.border{
+
+	width:60vw;
+	height:5vh;
+	border-bottom:1vmin solid grey;
+} 
+
+.white{
+	top:3.9vh;
+	position:absolute;
+	width:60vw;
+	height:2vh;
+	background: white;
+}
+
+
+
+.border>div{
+
+	font-size:2vmin;
+	margin:0 1vw 0 1vw;
+	text-align:center;
+	line-height: 150%;
+	width:4vw;
+	height:6vh;
+	float:left;
+	color:blue;
+	text-decoration: underline;
+}
+
+.border>div:nth-of-type(n):hover{
+	color:white;
+	background:orange;
+	border-bottom-color:orange;
+	border:orange;
+	text-decoration: none;
+}
+

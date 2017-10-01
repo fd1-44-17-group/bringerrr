@@ -1,0 +1,141 @@
+body{
+		font-weight: bold;
+}
+
+.border{
+
+
+	width:80vw;
+	height: 22vh;
+}
+
+
+.topleft{
+	position: relative;
+	width: 65%;
+	font-size: 5vmin;
+	float:left;
+}
+
+/* (попытка нарисовать часики) beginning of div-clock */ 
+
+
+/*.clock{
+	position: relative;
+	color:red;
+	position: relative;
+	border:4px solid red;
+	border-radius: 50%;
+	width: 10vw;
+	top:7vh;
+	height: 10vh;}
+
+.clock:after{
+	content:"";
+	color:red;
+	position: absolute;
+	border:4px solid red;
+	border-style:none solid none none;
+	transform: rotate(220deg);
+	width: 5vw;
+	height: 5vw;
+	left:-10%;
+	top:10%;
+
+}
+
+.clock:before{
+	content:"";
+	display: block
+	color:red;
+	position: absolute;
+	border:4px solid red;
+	border-style:none solid none none;
+	transform: rotate(310deg);
+	left:50%;
+	width: 5vw;
+	height: 5vw;
+
+}
+
+.cursor{
+
+	position: absolute;
+	border:4px solid red;
+	width:3.5vw;
+	height:3.5vh;
+	top:-100%;
+	left:-100%;
+	margin-right:auto;
+	border-style:none solid solid none;
+	transform: rotate(0);
+}
+
+.dot{
+	top:39.5%;
+	left:39.5%;
+	position: relative;
+	width: 2.5vw;
+	height: 2.5vh;
+	background: red;
+	border-radius: 50%;
+}*/
+
+
+/* end of div- clock */ 
+
+
+.mnemoclock{
+position: absolute;
+width:10vw;
+height:10vh; 
+top:10%;
+font-size:8vmin;
+color:red;
+text-align:center;
+}
+
+
+.botleft{
+
+	position: absolute;
+	float:left;
+	font-size: 5vmin;
+	color:red;
+	font-weight: bolder;
+	width:40vw;
+	top:9.5%;
+	left:15.5%;
+
+}
+
+
+.right{
+	border:2px dotted red;
+	border-radius: 20px;
+	position: absolute;
+	width: 25vw;
+	height:20vh;
+	left:55%;
+}
+
+
+.topright{
+	width:100%;
+	height: 30%;
+	font-size: 5vmin;
+	text-align: center;
+	line-height: 
+}
+
+
+.botright{
+	width:auto;
+	height: 69%;
+	font-size: 8vmin;
+	text-align: center;
+	line-height: 150%;
+	color:red;
+}
+
+
