@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+</head>
+<body>
+    
+<div class="main">
+<h2>Creating a chart</h2>
+
+<p>To create a chart, we need to instantiate the Chart class. To do this, we need to pass in the 2d context of where 
+we want to draw the chart. Here's an example.</p>
+
+<div class="grey"><span class="blue">&lt;canvas</span> <span class="green">id=</span><span class="red">
+    &Prime;myChart&Prime;</span> <span class="green">width=</span><span class="red">&Prime;400&Prime;</span>
+    <span class="green">height=</span><span class="red">&Prime;400&Prime;</span><span class="blue">&gt;&lt;/canvas&gt</span></span> </div>
+    
+<div class="grey"> <span class="courier"> <span class="italic">// Get the context of the canvas element we want to select </span> <br>
+<span class="bold">var</span> ctx = <span class="blue">document</span>.getElementById(&Prime;myChart&Prime;).getContext(&Prime;2d&Prime;);
+<span class="bold">var</span> myNewChart = <span class="bold">new</span> Chart(ctx).PolarArea(data);</div>
+
+<p>We can also get the context of our canvas with jQuery. 
+To do this, we need to get the DOM node out of the jQuery collection, and call the <br>
+<span class="courier">getContext(&Prime;2d&Prime;)</span> method on that. </p>
+
+<div class="grey"> <span class="courier"> <span class="italic">// Get context with jQuery - using jQuery&rsquo;s .get() method.</span> <br>
+<span class="bold">var</span> ctx = $(<span class="red">&Prime;#myChart&Prime;</span>).get(<span class="green">0</span>).getContext(<span class="red">&Prime;2d&Prime;</span>); <br>
+<span class="italic">// This will get the first returned node in the jQuery collection.</span> <br>
+var myNewChart = new Chart(ctx); </span></div>
+</div>
+    
+</body>
+</html>
