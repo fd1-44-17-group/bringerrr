@@ -1,0 +1,62 @@
+.img{
+	float:left;
+	width:250px;
+	height:276px; 
+	background: url(../img/man.png) no-repeat;
+	background-size:100%;
+}
+
+.blue{
+	position: absolute;
+	font-size:48px;
+	text-transform: uppercase;
+	font-weight:bold;
+	text-align: center;
+	color:white;
+	width:380px;
+	height:60px;
+	top:30px;
+	left:300px;
+	background:#4A79B5;
+
+}
+
+
+.red{
+	position:absolute;
+	text-transform: uppercase;
+	font-size:26px;
+	font-weight:bold;
+	text-align:center;
+	width:500px;
+	height:70px;
+	left:400px;
+	top:150px;
+	background:#D10C1D;
+	color:white;
+	line-height: 130%;
+}
+
+
+
+.red:after{
+	content: "";
+	display: block;
+	position: absolute;
+	width:200px;
+	height:13px;
+	left:480px;
+	top:26px;
+	background:#D10C1D;
+}
+
+.blue:after{
+	content: "";
+	display: block;
+	position: absolute;
+	width:400px;
+	height:13px;
+	left:380px;
+	top:26px;
+	background:#4A79B5;
+}

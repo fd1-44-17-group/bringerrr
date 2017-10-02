@@ -1,0 +1,34 @@
+.backgoround{
+	position: absolute;
+	width:50vw;
+	height: 50vh;
+	position: absolute;
+	background: #91B991;
+} 
+
+
+.black{
+	top:15%;
+	left:15%;
+	position: absolute;
+	width: 35vw;
+	height: 35vh;
+	position: absolute;
+	background: black;
+	transform:rotate();
+	border-radius:50%;
+}
+
+.yellow{
+	top:5%;
+	left:5%;
+	position: absolute;
+	width: 45vw;
+	height: 45vh;
+	position: absolute;
+	background:#FBA134;
+	transform:rotate();
+	border-radius: 50%;
+}
+
+
