@@ -87,13 +87,27 @@ background:black;
 .out{
     position: absolute;
     top:7%;
-    left:28%;
+    left:10.7%;
     border:1px solid white;
-    width: 29vw;
-    height: 32vh;
+    width: 26vw;
+    height: 28vh;
     border-radius:8px;
     background-color: #E4E7E8;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
 }
+
+.out:hover{
+
+    background: url(chrome.png) 50% 50% no-repeat;
+    background-size:50%; 
+    top:7%;
+    width: 39vw;
+    height: 42vh;
+    -webkit-transform: rotate(180deg);
+    transform: translateX(123%) rotate(1440deg);
+}
+
+
 
 .in-one{
     position: absolute;
@@ -101,7 +115,7 @@ background:black;
     top:5%;
     left:12.3%;
     width: 23.5vw;
-    height: 13vh;
+    height: 33vh;
     border-radius:8px;
     background-color: #E4E7E8;
 }
@@ -112,7 +126,7 @@ background:black;
     top:4%;
     left:13.5%;
     width: 21vw;
-    height: 10vh;
+    height: 30vh;
     border-radius:8px;
     background-color: #E4E7E8;
 }
