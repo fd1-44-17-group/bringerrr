@@ -1,0 +1,181 @@
+body>div>div {
+    width: 10%;
+    height: 10%;
+    float: left;
+
+    font-size: 6vmin;
+    text-align: center;
+}
+
+/*beginning-----------------------------------------------gradient*/
+
+body>div {
+    background-size: 100% 100%,
+    100% 100%,
+    100% 100%,
+    100% 100%,
+
+    20% 20%,
+    20% 20%,
+    20% 20%,
+    20% 20%;
+
+    background-image: linear-gradient(white, white 10%, transparent 10%, transparent),
+    linear-gradient(to top, white, white 10%, transparent 10%, transparent),
+    linear-gradient(to left, white 10%, transparent 10%, transparent),
+    linear-gradient(to right, white 10%, transparent 10%, transparent),
+
+
+    linear-gradient(45deg, grey, grey 25%, transparent 25%, transparent),
+    linear-gradient(225deg, grey, grey 25%, transparent 25%, transparent),
+    linear-gradient(225deg, grey, grey 25%, transparent 25%, transparent),
+    linear-gradient(45deg, grey, grey 25%, transparent 25%, transparent);
+
+
+    background-position: 0% 0%,
+    0% 0%,
+    0% 0%,
+    0% 0%,
+
+    0% 0%,
+    -12.5% -12.5%,
+    0% 0%,
+    -12.5% -12.5%;
+
+    height: 100vmin;
+    width: 100vmin;
+}
+
+/*end-----------------------------------------------gradient*/
+
+/*beginning----------------------------------------------figures*/
+
+div:nth-child(-n+20):not(:nth-child(-n+10)):not(:nth-child(11)):not(:nth-child(20)):after {
+    content: " ";
+    position: relative;
+    display: block;
+    background-size: 550%;
+    height: 9vmin;
+}
+
+
+div:nth-child(19):after {
+    background: url("../img/chess.png") -18vmin 0 no-repeat;
+}
+
+
+div:nth-child(18):after {
+    background: url("../img/chess.png") -38vmin 0vmin no-repeat;
+}
+
+div:nth-child(17):after {
+    background: url("../img/chess.png") -28vmin 0 no-repeat;
+}
+
+div:nth-child(16):after {
+    background: url("../img/chess.png") 1.5vmin 0 no-repeat;
+}
+
+div:nth-child(15):after {
+    background: url("../img/chess.png") -8vmin 0 no-repeat;
+}
+
+div:nth-child(14):after {
+    background: url("../img/chess.png") -28vmin 0 no-repeat;
+}
+
+div:nth-child(13):after {
+    background: url("../img/chess.png") -38.1vmin 0 no-repeat;
+}
+
+div:nth-child(12):after {
+    background: url("../img/chess.png") -18vmin 0 no-repeat;
+}
+
+
+
+
+div:nth-child(-n+30):not(:nth-child(-n+20)):not(:nth-child(21)):not(:nth-child(30)):after {
+    content: " ";
+    position: relative;
+    background: url("../img/chess.png") -47.5vmin 0 no-repeat;
+    display: block;
+    background-size: 550%;
+    height: 9vmin;
+}
+
+
+div:nth-child(-n+80):not(:nth-child(-n+70)):not(:nth-child(71)):not(:nth-child(80)):after {
+    content: " ";
+    position: relative;
+    background: url("../img/chess.png") -47.5vmin -9.2vmin no-repeat;
+    display: block;
+    background-size: 550%;
+    height: 9vmin;
+}
+
+div:nth-child(-n+90):not(:nth-child(-n+80)):not(:nth-child(81)):not(:nth-child(90)):after {
+    content: " ";
+    position: relative;
+    display: block;
+    background-size: 550%;
+    height: 9vmin;
+}
+
+
+div:nth-child(82):after {
+    background: url("../img/chess.png") -18vmin -8.6vmin no-repeat;
+}
+
+div:nth-child(83):after {
+    background: url("../img/chess.png") -38vmin -8.6vmin no-repeat;
+}
+
+div:nth-child(84):after {
+    background: url("../img/chess.png") -28vmin -8.6vmin no-repeat;
+}
+
+div:nth-child(85):after {
+    background: url("../img/chess.png") -8.5vmin -8.6vmin no-repeat;
+}
+
+div:nth-child(86):after {
+    background: url("../img/chess.png") 1vmin -8.6vmin no-repeat;
+}
+
+div:nth-child(87):after {
+    background: url("../img/chess.png") -28vmin -8.6vmin no-repeat;
+}
+
+div:nth-child(88):after {
+    background: url("../img/chess.png") -38vmin -8.6vmin no-repeat;
+}
+
+div:nth-child(89):after {
+    background: url("../img/chess.png") -18vmin -8.6vmin no-repeat;
+}
+
+
+
+/*end-----------------------------------------------figures*/
+
+/*beginning-----------------------------------------------culcs*/
+
+div:nth-child(n+2) {
+
+    counter-increment: me;
+}
+
+div:nth-child(n+2):not(:nth-child(n+10)):after {
+    content: counter(me);
+    display: block;
+}
+
+div:nth-child(n+92) {
+    counter-increment: my;
+}
+
+div:nth-child(n+92):not(:nth-child(100)):after {
+    content: counter(my);
+    display: block;
+}

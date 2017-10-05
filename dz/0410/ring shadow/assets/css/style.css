@@ -1,0 +1,17 @@
+body>div {
+	border: 1px solid black;
+	width: 50vw;
+	height: 50vh;
+	background: green;
+}
+
+div>div {
+	top: 5%;
+	left: 5%;
+	position: relative;
+	border-radius: 50%;
+	box-shadow: inset gold 0 0 0 10vmin;
+	background: black;
+	width: 45vw;
+	height: 45vh;
+}

@@ -1,0 +1,7 @@
+div {
+	background: radial-gradient(circle at center, black 0, black 25%, gold 25%, gold 60%, green 60%);
+	border: 1px solid black;
+	width: 75vw;
+	height: 75vh;
+
+}
