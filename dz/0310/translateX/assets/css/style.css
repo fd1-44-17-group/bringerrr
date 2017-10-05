@@ -1,0 +1,54 @@
+div {
+	font-size: 5vmin;
+	display: block;
+	float: left;
+	-webkit-transition: all 3s;
+	transition: all 3s;
+}
+
+
+
+div:nth-child(n) {
+	border: 1px solid black;
+	width: 10vw;
+	height: 60vh;
+	position: relative;
+}
+
+
+div:nth-child(n) {
+	display: table;
+	vertical-align: center;
+	text-align: center;
+	width: 10vw;
+	height: 10vh;
+}
+
+body:hover>div:nth-child(3)>div:nth-child(2),
+body:hover>div:nth-child(2)>div:nth-child(3),
+body:hover>div:nth-child(2)>div:nth-child(4),
+body:hover>div:nth-child(3)>div:nth-child(4),
+body:hover>div:nth-child(3)>div:nth-child(6) {
+	transform: translateX(-100%);
+
+}
+
+
+body:hover>div:nth-child(2)>div:nth-child(2),
+body:hover>div:nth-child(2)>div:nth-child(6),
+body:hover>div:nth-child(2)>div:nth-child(6) {
+	transform: translateX(100%);
+}
+
+body:hover>div:nth-child(1)>div:nth-child(3) {
+	transform: translateX(100%);
+}
+
+body:hover>div:nth-child(1)>div:nth-child(4),
+body:hover>div:nth-child(1)>div:nth-child(5) {
+	transform: translateX(200%);
+}
+
+body:hover>div:nth-child(3)>div:nth-child(5) {
+	transform: translateX(-200%);
+}
