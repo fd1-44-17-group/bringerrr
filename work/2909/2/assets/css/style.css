@@ -1,0 +1,49 @@
+body{
+    background:#7AE8E4;
+}
+
+
+.main{
+    position: relative;
+    border:5px solid black; 
+    width:90vw;
+    height:90vh;
+}
+
+.red{
+    position: absolute;
+    top:5%;
+    left:5%;
+    border:1vmin solid black; 
+    width: 25vw;
+    height: 20vh;
+    background-color: red;
+}
+.blue{
+    position: absolute;
+    top:40%;
+    left:5%;
+    border:1vmin solid black; 
+    width: 25vw;
+    height: 45vh;
+    background-color: blue;
+}
+.green{
+    position: absolute;
+    top:5%;
+    left:42%;
+    border:1vmin solid black; 
+    width: 45vw;
+    height: 45vh;
+    background-color: green
+}
+.yellow{
+    position: absolute;
+    top:65%;
+    left:42%;
+    border:1vmin solid black; 
+    width: 50%;
+    height: 25%;
+    background-color: yellow;
+}
+

@@ -1,0 +1,133 @@
+body
+
+
+.main{
+    position: relative;
+    border:5px solid black; 
+    width:95vw;
+    height:90vh;
+}
+
+.folder{
+    position: absolute;
+    top:10%;
+    left:10%;
+    width: 27.5vw;
+    height: 32vh;
+    border-radius:10px;
+    background-color: #FFCD59;
+}
+.folderback{
+    position: absolute;
+    top:2%;
+    left:10%;
+    width: 27.5vw;
+    height: 32vh;
+    border-radius:10px;
+    background-color: #CFA448;
+}
+.folderback:after{
+    content:"";
+    display:block;
+    position:relative;
+    width: 11vw;
+    height: 22vh;
+    top:-5%;
+    border-radius:10px;
+    background-color: #CFA448;
+}
+
+
+
+
+.red{
+    margin:0.8vh 1vw 0 0.8vw;
+    float:left;
+    position:relative;
+    width:0.85vw;
+    height:1.8vh;
+    border-radius:50%;
+    background:red;
+}
+.yellow{
+    margin:0.8vh 1vw 0 0;
+    float:left;
+    position:relative;
+     width:0.85vw;
+    height:1.8vh;
+    border-radius:50%;
+    background:yellow;
+}
+.green{
+    margin:0.8vh 0 0 0;
+    float:left;
+    position:relative;
+     width:0.85vw;
+    height:1.8vh;
+    border-radius:50%;
+    background:green;
+}
+
+.blocks{
+    margin:0.8vh 0.4vw 0 0;
+    float:right;
+    position:relative;
+    height: 1vh;
+    width: 2vh;
+}
+.blocks>div{
+    width: 1vw;
+    height: 0.6vh;
+}
+
+.blocks>div:nth-child(2n-1){
+background:black;    
+}
+
+.out{
+    position: absolute;
+    top:7%;
+    left:10.7%;
+    border:1px solid white;
+    width: 26vw;
+    height: 28vh;
+    border-radius:8px;
+    background-color: #E4E7E8;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.out:hover{
+
+    background: url(chrome.png) 50% 50% no-repeat;
+    background-size:50%; 
+    top:7%;
+    width: 39vw;
+    height: 42vh;
+    -webkit-transform: rotate(180deg);
+    transform: translateX(123%) rotate(1440deg);
+}
+
+
+
+.in-one{
+    position: absolute;
+    border:1px solid white;
+    top:5%;
+    left:12.3%;
+    width: 23.5vw;
+    height: 33vh;
+    border-radius:8px;
+    background-color: #E4E7E8;
+}
+
+.in-two{
+    position: absolute;
+    border:1px solid white;
+    top:4%;
+    left:13.5%;
+    width: 21vw;
+    height: 30vh;
+    border-radius:8px;
+    background-color: #E4E7E8;
+}
+  

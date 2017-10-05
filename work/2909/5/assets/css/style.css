@@ -1,0 +1,51 @@
+body{
+    font-size:10vmin;
+}
+
+div{
+    width: 15vw;
+    height: 15vh;
+}
+
+.bord{
+width:90vw;
+height: 50vh;    
+}
+
+
+.letter-x{
+    left:50%;
+    position: absolute;
+    width: 18%;
+    height: 18%;
+}
+
+div>div{
+    float:left;
+    width: 6vw;
+    height: 6vh;}
+
+.letter-x>div:nth-child(2n-1){
+    background:black;
+}
+
+.first{
+white-space: nowrap;
+text-align:right;
+position: absolute;
+width:48vw;
+height: 20vh;
+/*border:1px solid black;*/
+line-height: 200%;
+}
+
+
+.second{position: relative;
+ width:7vw;
+height: 20vh; 
+line-height: 200%;
+left:75%;
+}
+
+
+

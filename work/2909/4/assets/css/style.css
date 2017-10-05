@@ -1,0 +1,36 @@
+body{
+    background:grey;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.greenone{
+    position: absolute;
+    border-style:solid solid solid solid;
+    border-width: 0 10vw 10vh 10vw;
+    border-color: grey grey green grey;
+     top:50%;
+}
+
+.greentwo{
+    position: absolute;
+    border-style:solid solid solid solid;
+    border-width: 0 10vw 10vh 10vw;
+    border-color: grey grey green grey;
+    left:74%;
+    top:50%;
+}
+
+.big{
+    position: absolute;
+    border-style:solid solid solid solid;
+    border-width: 0 20vw 60vh 20vw;
+    border-color: grey grey green grey;
+    left:27%;
+    transform: rotate(180deg)
+    
+}
