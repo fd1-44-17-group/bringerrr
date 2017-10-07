@@ -1,0 +1,154 @@
+body {
+	background: url(../img/witcher-bg.jpg) no-repeat;
+	background-size: 100% 110%;
+}
+
+input[name="opt"] {
+	display: none;
+}
+
+input[name="opt"]:checked:nth-child(even)~.gallery {
+	-webkit-animation: animation 1s;
+	animation: animation 1s;
+}
+
+input[name="opt"]:checked:nth-child(odd)~.gallery {
+	-webkit-animation: animation1 1s;
+	animation: animation1 1s;
+}
+
+
+.gallery {
+	border: 1vmin ridge #586874;
+	border-radius: 30px;
+	text-align: center;
+	position: relative;
+	width: 70vw;
+	padding-top: 70vh;
+	margin: 10vh 0 5vh 4vw;
+}
+
+.gallery label {
+	border: 1vmin solid black;
+	display: inline-block;
+	margin-bottom: 0vh;
+	height: 14vh;
+	width: 9.3vw;
+	opacity: .25;
+	cursor: pointer;
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+
+
+.gallery label:hover {
+	opacity: 1;
+}
+
+
+#opt-1:checked~.gallery,
+.gallery [for="opt-1"] {
+	background: url(../img/witcher1.jpg) no-repeat 50% 100%/100% 100%;
+}
+
+#opt-2:checked~.gallery,
+.gallery [for="opt-2"] {
+	background: url(../img/witcher2.jpg) no-repeat 50% 100%/100% 100%;
+}
+
+#opt-3:checked~.gallery,
+.gallery [for="opt-3"] {
+	background: url(../img/witcher3.jpg) no-repeat 50% 100%/100% 100%;
+}
+
+#opt-4:checked~.gallery,
+.gallery [for="opt-4"] {
+	background: url(../img/witcher4.jpg) no-repeat 50% 100%/100% 100%;
+}
+
+#opt-5:checked~.gallery,
+.gallery [for="opt-5"] {
+	background: url(../img/witcher5.jpg) no-repeat 50% 100%/100% 100%;
+}
+
+#opt-6:checked~.gallery,
+.gallery [for="opt-6"] {
+	background: url(../img/witcher6.jpg) no-repeat 50% 100%/100% 100%;
+}
+
+
+
+.gallery label:before {
+	position: absolute;
+	border-width: 4vh 2vw;
+	border-style: solid;
+	bottom: 3.5vh;
+}
+
+#opt-1:checked~.gallery [for="opt-2"]:before,
+#opt-2:checked~.gallery [for="opt-3"]:before,
+#opt-3:checked~.gallery [for="opt-4"]:before,
+#opt-4:checked~.gallery [for="opt-5"]:before,
+#opt-5:checked~.gallery [for="opt-6"]:before,
+#opt-6:checked~.gallery [for="opt-1"]:before {
+	content: "";
+	right: -10vh;
+	opacity: 1;
+	border-color: transparent transparent transparent white;
+}
+
+#opt-1:checked~.gallery [for="opt-6"]:before,
+#opt-2:checked~.gallery [for="opt-1"]:before,
+#opt-3:checked~.gallery [for="opt-2"]:before,
+#opt-4:checked~.gallery [for="opt-3"]:before,
+#opt-5:checked~.gallery [for="opt-4"]:before,
+#opt-6:checked~.gallery [for="opt-5"]:before {
+	content: "";
+	left: -10vh;
+	border-color: transparent white transparent transparent;
+}
+
+
+
+@-webkit-keyframes animation1 {
+	from {
+		opacity: 0.3
+	}
+	to {
+		opacity: 1
+	}
+}
+
+@keyframes animation1 {
+	from {
+		opacity: 0.3
+	}
+	to {
+		opacity: 1
+	}
+}
+
+@-webkit-keyframes animation {
+	from {
+		opacity: 0.3
+	}
+	to {
+		opacity: 1
+	}
+}
+
+@keyframes animation {
+	from {
+		opacity: 0.3
+	}
+	to {
+		opacity: 1
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.gallery label:before {
+		bottom: 21.5vh;
+	}
+}

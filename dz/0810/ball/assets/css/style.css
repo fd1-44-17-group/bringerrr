@@ -1,0 +1,271 @@
+.orange {
+	background: orange;
+	top: 90%;
+	left: 50%;
+	position: absolute;
+	border: 1px solid black;
+	width: 10vmin;
+	height: 10vmin;
+	border-radius: 50%;
+	-webkit-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+	-webkit-animation: lower 12s linear infinite;
+	animation: lower 12s linear infinite;
+}
+
+
+@-webkit-keyframes lower {
+	from {
+		top: 90%;
+		border-radius: 50% 50% 35% 35%;
+		-webkit-transform: scaleY(0.5);
+		transform: scaleY(0.5);
+		-webkit-box-shadow: 0vmin 2vmin 3vmin black;
+		box-shadow: 0vmin 2vmin 3vmin black;
+		-webkit-transform-origin: 50% 50%;
+		transform-origin: 50% 50%;
+	}
+
+	2.5% {
+		-webkit-box-shadow: 0vmin 10vmin 10vmin white;
+		box-shadow: 0vmin 10vmin 10vmin white;
+		-webkit-transform: scaleY(1);
+		transform: scaleY(1);
+		border-radius: 50%;
+	}
+
+
+	22.5% {
+
+		-webkit-box-shadow: 10vmin 0vmin 10vmin white;
+
+		box-shadow: 10vmin 0vmin 10vmin white;
+		-webkit-transform: scaleY(1);
+		transform: scaleY(1);
+		border-radius: 50%;
+	}
+
+	25% {
+		-webkit-box-shadow: 2vmin 0vmin 4vmin black;
+		box-shadow: 2vmin 0vmin 4vmin black;
+		top: 50%;
+		left: 90%;
+		-webkit-transform: scaleX(0.5);
+		transform: scaleX(0.5);
+		-webkit-transform-origin: 50% 50%;
+		transform-origin: 50% 50%;
+		border-radius: 50% 35% 35% 50%;
+	}
+
+	27.5% {
+		-webkit-box-shadow: 10vmin 0vmin 10vmin white;
+		box-shadow: 10vmin 0vmin 10vmin white;
+		-webkit-transform: scaleY(1);
+		transform: scaleY(1);
+		border-radius: 50%
+	}
+
+	47.5% {
+		-webkit-box-shadow: 0vmin -10vmin 10vmin white;
+		box-shadow: 0vmin -10vmin 10vmin white;
+		border-radius: 50%;
+		-webkit-transform: scaleY(1);
+		transform: scaleY(1);
+	}
+
+	50% {
+		-webkit-box-shadow: 0vmin -2vmin 4vmin black;
+		box-shadow: 0vmin -2vmin 4vmin black;
+		border-radius: 35% 35% 50% 50%;
+		top: 0%;
+		-webkit-transform-origin: 50% 50%;
+		transform-origin: 50% 50%;
+		-webkit-transform: scaleY(0.5);
+		transform: scaleY(0.5)
+	}
+
+	52.5% {
+		-webkit-box-shadow: 0vmin -10vmin 10vmin white;
+		box-shadow: 0vmin -10vmin 10vmin white;
+		-webkit-transform: scaleY(1);
+		transform: scaleY(1);
+		border-radius: 50%;
+	}
+
+	72.5% {
+		-webkit-transform: scaleY(1);
+		transform: scaleY(1);
+		border-radius: 50%;
+		-webkit-box-shadow: -10vmin 0vmin 10vmin white;
+		box-shadow: -10vmin 0vmin 10vmin white;
+	}
+
+
+	75% {
+		top: 50%;
+		left: 0%;
+		-webkit-box-shadow: -2vmin 0vmin 4vmin black;
+		box-shadow: -2vmin 0vmin 4vmin black;
+		-webkit-transform: scaleX(0.5);
+		transform: scaleX(0.5);
+		-webkit-transform-origin: 50% 50%;
+		transform-origin: 50% 50%;
+		border-radius: 35% 50% 50% 35%;
+	}
+
+	77.5% {
+		-webkit-box-shadow: -10vmin 0vmin 10vmin white;
+		box-shadow: -10vmin 0vmin 10vmin white;
+		-webkit-transform: scaleY(1);
+		transform: scaleY(1);
+		border-radius: 50%;
+	}
+
+	97.5% {
+		border-radius: 50%;
+		-webkit-transform: scaleY(1);
+		transform: scaleY(1);
+		-webkit-box-shadow: 0vmin 10vmin 10vmin white;
+		box-shadow: 0vmin 10vmin 10vmin white;
+	}
+
+
+	to {
+		top: 90%;
+		-webkit-box-shadow: 0vmin 2vmin 4vmin black;
+		box-shadow: 0vmin 2vmin 4vmin black;
+		border-radius: 50% 50% 35% 35%;
+		-webkit-transform: scaleY(0.5);
+		transform: scaleY(0.5);
+		-webkit-transform-origin: 50% 50%;
+		transform-origin: 50% 50%;
+	}
+}
+
+
+@keyframes lower {
+	from {
+		top: 90%;
+		border-radius: 50% 50% 35% 35%;
+		-webkit-transform: scaleY(0.5);
+		transform: scaleY(0.5);
+		-webkit-box-shadow: 0vmin 2vmin 3vmin black;
+		box-shadow: 0vmin 2vmin 3vmin black;
+		-webkit-transform-origin: 50% 50%;
+		transform-origin: 50% 50%;
+	}
+
+	2.5% {
+		-webkit-box-shadow: 0vmin 10vmin 10vmin white;
+		box-shadow: 0vmin 10vmin 10vmin white;
+		-webkit-transform: scaleY(1);
+		transform: scaleY(1);
+		border-radius: 50%;
+	}
+
+	22.5% {
+
+		-webkit-box-shadow: 10vmin 0vmin 10vmin white;
+
+		box-shadow: 10vmin 0vmin 10vmin white;
+		-webkit-transform: scaleY(1);
+		transform: scaleY(1);
+		border-radius: 50%;
+	}
+
+	25% {
+		-webkit-box-shadow: 2vmin 0vmin 4vmin black;
+		box-shadow: 2vmin 0vmin 4vmin black;
+		top: 50%;
+		left: 90%;
+		-webkit-transform: scaleX(0.5);
+		transform: scaleX(0.5);
+		-webkit-transform-origin: 50% 50%;
+		transform-origin: 50% 50%;
+		border-radius: 50% 35% 35% 50%;
+	}
+
+	27.5% {
+		-webkit-box-shadow: 10vmin 0vmin 10vmin white;
+		box-shadow: 10vmin 0vmin 10vmin white;
+		-webkit-transform: scaleY(1);
+		transform: scaleY(1);
+		border-radius: 50%
+	}
+
+	47.5% {
+		-webkit-box-shadow: 0vmin -10vmin 10vmin white;
+		box-shadow: 0vmin -10vmin 10vmin white;
+		border-radius: 50%;
+		-webkit-transform: scaleY(1);
+		transform: scaleY(1);
+
+	}
+
+	50% {
+		-webkit-box-shadow: 0vmin -2vmin 4vmin black;
+		box-shadow: 0vmin -2vmin 4vmin black;
+		border-radius: 35% 35% 50% 50%;
+		top: 0%;
+		-webkit-transform-origin: 50% 50%;
+		transform-origin: 50% 50%;
+		-webkit-transform: scaleY(0.5);
+		transform: scaleY(0.5)
+	}
+
+	52.5% {
+		-webkit-box-shadow: 0vmin -10vmin 10vmin white;
+		box-shadow: 0vmin -10vmin 10vmin white;
+		-webkit-transform: scaleY(1);
+		transform: scaleY(1);
+		border-radius: 50%;
+	}
+
+	72.5% {
+		-webkit-transform: scaleY(1);
+		transform: scaleY(1);
+		border-radius: 50%;
+		-webkit-box-shadow: -10vmin 0vmin 10vmin white;
+		box-shadow: -10vmin 0vmin 10vmin white;
+	}
+
+	75% {
+		top: 50%;
+		left: 0%;
+		-webkit-box-shadow: -2vmin 0vmin 4vmin black;
+		box-shadow: -2vmin 0vmin 4vmin black;
+		-webkit-transform: scaleX(0.5);
+		transform: scaleX(0.5);
+		-webkit-transform-origin: 50% 50%;
+		transform-origin: 50% 50%;
+		border-radius: 35% 50% 50% 35%;
+	}
+
+	77.5% {
+		-webkit-box-shadow: -10vmin 0vmin 10vmin white;
+		box-shadow: -10vmin 0vmin 10vmin white;
+		-webkit-transform: scaleY(1);
+		transform: scaleY(1);
+		border-radius: 50%;
+	}
+
+	97.5% {
+		border-radius: 50%;
+		-webkit-transform: scaleY(1);
+		transform: scaleY(1);
+		-webkit-box-shadow: 0vmin 10vmin 10vmin white;
+		box-shadow: 0vmin 10vmin 10vmin white;
+	}
+
+	to {
+		top: 90%;
+		-webkit-box-shadow: 0vmin 2vmin 4vmin black;
+		box-shadow: 0vmin 2vmin 4vmin black;
+		border-radius: 50% 50% 35% 35%;
+		-webkit-transform: scaleY(0.5);
+		transform: scaleY(0.5);
+		-webkit-transform-origin: 50% 50%;
+		transform-origin: 50% 50%;
+	}
+}
