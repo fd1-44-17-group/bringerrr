@@ -1,0 +1,26 @@
+.content{
+	float: left;
+	width: 580px;
+	height: 900px;
+	border:1px solid black;
+	overflow: scroll;
+}
+
+.title{
+	float: left;
+	width:600px;
+	height: 100px;
+	border: 2px solid black;
+}
+
+
+iframe{
+position: relative;
+display: block;}
+
+
+iframe:not(:first-child){
+padding: 40px 0 0 0;
+}
+
+
