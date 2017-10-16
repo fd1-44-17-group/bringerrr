@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+    console.log("Задание-1");
+
+
+    var myArray = [];
+    var x = 0;
+
+    do {
+        myArray.push(prompt('Введите возраст в цифровом формате')) 
+            if (!parseInt(myArray[x]) && myArray[x] != ''){
+                alert('Закусывать надо')
+                myArray.pop();
+                x--
+            }
+            x++
+        }while (myArray[x - 1] != '')
+
+
+    var total = " ";
+ 		for (var i = 0; i < myArray.length; i++) {
+        total += myArray[i] + " ";
+    }
+    alert(total )
+
+    console.log(myArray)
+
+
+    </script>
+</body>
+
+</html>
